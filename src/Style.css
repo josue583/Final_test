@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    /* width: 800px; */
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: brown; */
+    width: 100%;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Menubar{
+    /* display: flex; */
+width: 100%;
+height: 50px;
+background-color:black;
+color: white;
+font-size: 15px;
+
+}
+body{
+    background-color: rgb(37, 37, 37);
+    background-image: url("../public/images/body_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1.5;
+    
+}
+.Menu_list{
+    display: flex;
+    gap: 40px;
+    justify-content: right;
+    padding: 10px;
+    padding-right: 40px;
+    list-style-type: none;
+    
+
+}
+.Menu_list>li:hover{
+    color: rgb(250, 192, 4);
+}
+#logo{
+    display: flex;
+    justify-self: left;
+    
+    padding-right: 400px;
+}
+#circle{
+    /* background-color: ; */
+
+    padding-top: 8px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.Home{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* background-color: rgb(34, 33, 33); */
+}
+.greating{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: start;
+    gap: 15px;
+    padding-left: 100px;
+    /* text-align: center; */
+    color: ghostwhite;
+    /* text-align: center; */
+    /* font-size: 50px; */
+    width: 1000px;
+    height: 600px;
+}
+.Home>img{
+    width: 400px;
+    height: 600px;
+}
+#hello{
+    color: rgb(250, 192, 4);
+    font-size: 30px;
+    white-space: nowrap;
+}
+.greating>h3{
+    font-size: 6rem;
+}
+.greating>p{
+    font-size: 25px;
+    color: darkgrey;
+}
+#hire_me{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(250, 192, 4);
+    border-radius: 70px;
+    border: none;
+    font-size: 1.5rem;
+}
+#joshua{
+    position: relative;
+    animation: slide 4s infinite;
+    opacity: 0.8;
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 5%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+.about_me{
+    /* display: flex; */
+    width: 100%;
+    height: 600px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    /* text-align: center; */
+}
+#about{
+    text-align: center;
+    color: rgb(250, 192, 4);
+    text-decoration: underline;
+    padding-top: 40px;
+}
+.about_content{
+    display: flex;
+    padding: 50px 100px 50px 100px;
+    
+    /* text-align: center; */
+}
+#paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+    width: 60%;
+    /* text-align: center; */
+    
+}
+#paragraph>p{
+    width: 400px;
+    color: rgb(219, 219, 219);
+    font-size: 20px;
+}
+.about_content>img{
+    width: 40%;
+}
+#paragraph>ul{
+    list-style-type: none;
+    color: rgb(218, 218, 218);
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+#paragraph>h2{
+    font-size: 30px;
+}
+#paragraph>h3{
+    font-size: 20px;
+    color: rgb(250, 192, 4);
+}
+#paragraph>button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(250, 192, 4);
+    border-radius: 70px;
+    border: none;
+    font-size: 1rem;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align:center;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(63, 62, 62);
+    padding: 20px;
+    color: white;
+}
+/* .card{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+} */
+
+.test{
+    /* background-color: blue; */
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    background-color: rgb(26, 25, 25);
+}
